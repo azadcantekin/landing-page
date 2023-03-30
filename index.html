@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <meta name="keyword" content="Computer Science , Programming , JavaScript , Css ">
+    <meta name="description" content="Landing Page">
+    <!-- Font Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  
+    <header class="bg-dark-blue">
+        <div class="container">
+            <nav id="navbar" >
+                <h1 class="heading-small">Landing Page</h1>
+    
+                <ul>
+                    <li><a href="#home"> Ana Sayfa</a></li>
+                    <li><a href="#mentor">Ürünler</a></li>
+                    <li><a href="#product">Biz kimiz ?</a></li>
+                    <li><a href="#contact">İletişim</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        
+      
+    </header>
+    <section id="home">
+        <img src="./images/resizedImage.png" alt="Development Solution">
+
+        <div class="name text-center">
+            
+            <h2 class="heading-large">Development Solution</h2>
+            <p>Yazılım ve geliştirme süreçleri için çözüm ve danışmanlık</p>         
+        </div>
+
+        <a href="#mentor" class="btn btn-primary"> Mentörlük</a>
+    </section>
+
+    <section id="mentor" class="bg-dark-blue">
+        <h3 class="heading-medium text-center">Mentörlük</h3>
+        <div class="items">
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Online Danışmanlık</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, atque!</p>
+            </article>
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Yüz Yüze Danışmanlık</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, atque!</p>
+            </article>
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Ekip Desteği</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, atque!</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="product">
+    <h3 class="text-center heading-medium"></h3>
+
+        <div class="container">
+            <div class="products">
+                <div class="product">
+                    <div class="product-image">
+                        <img src="./images/teknoloji.png" alt="teknoloji-danışmanlığı">
+                        <span>%25 indirim</span>
+                    </div>
+                    <div class="product-info">
+                        <div class="title">
+                           Kurumsal Çözümler
+                        </div>
+                        <div class="description">
+                            Üzman kadromuz ile firmanız için teknoloji danışmanlığı sunarız . 
+                        </div>
+                        <div class="rate">
+                            99.99TL
+                        </div>
+                    </div>
+
+                </div>
+                <div class="product">
+                    <div class="product-image">
+                        <img src="./images/system-worker.png" alt="teknoloji-danışmanlığı">
+                        <span>%25 indirim</span>
+                    </div>
+                    <div class="product-info">
+                        <div class="title">
+                          Başarı Oranı Takibi
+                        </div>
+                        <div class="description">
+                            System-worker ile çalışanların başarı potansiylini açığa çıkarın . 
+                        </div>
+                        <div class="rate">
+                            99.99TL
+                        </div>
+                    </div>
+
+                </div>
+                <div class="product">
+                    <div class="product-image">
+                        <img src="./images/danısmanlik.png" alt="teknoloji-danışmanlığı">
+                        <span>%25 indirim</span>
+                    </div>
+                    <div class="product-info">
+                        <div class="title">
+                          İş Arkadaşım
+                        </div>
+                        <div class="description">
+                           Firmanıza uygun mentoru bularak hızlıca gelişin . 
+                        </div>
+                        <div class="rate">
+                            99.99TL
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer id="contact" class="bg-dark-blue">
+        <div class="contact-form">
+            <form>
+            <h4 class="text-center heading-medium">Bize ulaşın</h4>
+                <div class="form-group">
+                <label for="name">İsim</label>
+                <input type="text"
+                class="form-control"
+                name="name"
+                id="name"
+                placeholder="isim"
+                >
+                </div>
+
+                <div class="form-group">
+                    <label for="email">email</label>
+                    <input type="text"
+                    class="form-control"
+                    name="email"
+                    id="email"
+                    placeholder="isim"
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="message">mesaj</label>
+                    <textarea name="message" id="message" class="form-control" rows="5"></textarea>
+                </div>
+                <button type="submit" class="btn btn-block">Gönder</button>
+            </form>
+            <ul>
+                <li>
+                    <a  href="#"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a  href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a  href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
